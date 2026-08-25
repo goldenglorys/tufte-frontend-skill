@@ -1,9 +1,13 @@
-# Tufte Frontend Skill
+# Tufte Minimalist Frontend Skill
 
-A reusable AI agent skill that enforces a disciplined, data-first, anti-slop frontend design system based on Edward Tufte's information-design principles — maximum data-ink ratio, direct labeling, tabular numeral alignment, and zero chartjunk.
-
-Drop [`tufte-minimalist-skill.md`](./tufte-minimalist-skill.md) into any AI coding agent (Claude, etc.) to make it build clean, minimalist, evidence-first UI — dashboards, tables, charts, and forms — instead of generic SaaS "chartjunk."
+An AI agent skill that enforces Edward Tufte's data-ink ratio principles, strips away UI slop (chartjunk, redundant borders), and ensures high-end, minimalist frontend architecture.
 
 ## Usage
 
-Point your agent at `tufte-minimalist-skill.md` (e.g. install via your skills tool, or paste it into a system prompt) whenever you're building or reviewing a UI, dashboard, table, chart, or form and want strict, minimalist, data-first output.
+Run the following command in your agent's terminal:
+
+```
+npx skills add goldenglorys/tufte-frontend-skill
+```
+
+Or point your agent directly at [`SKILL.md`](./SKILL.md) — paste it into a system prompt, or load it manually — whenever you're building or reviewing a UI, dashboard, table, chart, or form and want strict, minimalist, data-first output.
